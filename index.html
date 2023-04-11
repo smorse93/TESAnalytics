@@ -1,0 +1,30 @@
+<!--create a new html document using bootstraps-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--create a sample body and text template-->
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>TES Analytics</h1>
+                    <p>This is a test of the text </p>
+                </div>
+                 
+                
+            </div>
+        </div>
+        <!--create a new div section to embed tableau code-->
+        <div>
+            <script type='module' src='https://prod-useast-b.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-useast-b.online.tableau.com/t/tesanalytics/views/PublishedMap/MVP-Asis' width='1792' height='867' hide-tabs toolbar='bottom' ></tableau-viz>
+        </div>
+        
+
+    </body>
+</html>
