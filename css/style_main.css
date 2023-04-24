@@ -1,0 +1,101 @@
+
+
+/* create a background using background.jpg in the images folder */
+body {
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* load the Hanken Grotesk font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Hanken+Grotesk:400,700');
+
+/* load poppins from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+
+/* set Hanken Grotesk as the font for the body of the page */
+body, p {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+
+/* set Poppins as h1 font */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 84px;
+    color: #ffffff;
+}
+
+/* set Approach Mono TRIAL as h2 font */
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+h3 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+
+/* make a blue version of body h1 and h2 */
+body.blue h1, body.blue h2 {
+    color: #4399FF;
+}
+
+/* make a spacer that is 60 px tall */
+.spacer {
+    height: 60px;
+}
+
+/*----------NAV BAR----------*/
+/* Style for the navigation bar */
+body    
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: transparent;
+    padding: 0px;
+  }
+  
+  /* Style for the navigation bar options */
+.navbar-option {
+      border: 1px solid rgb(255, 255, 255);
+      padding: 20px 50px;
+      background-color: transparent;
+      margin-right: 0em;
+
+  }
+
+  /* Style for the active option */
+.navbar-option.active {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the links */
+.navbar-option a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+.navbar-option:not(:first-child) {
+  border-left: none;
+  }
+
+  /* Style for the last navigation bar option, without margin */
+.navbar-option:last-child {
+      margin-right: 0;
+    }
+
+.titleTextBox {
+    display: flex;
+    justify-content: left;
+}

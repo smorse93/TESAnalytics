@@ -6,25 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/style_main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!--create a sample body and text template-->
+
+    <div class=spacer></div>
+    
+    <nav class="navbar offset-md-1" >
+    
+    <div class="navbar-option"> <img src="images/main/logo.png" class="img-fluid" style="max-width: 50%"> <img src="images/main/TESAnalytics.png" class="img-fluid"></div>
+    <div class="navbar-option"><a href="#">Resources</a></div>
+    <div class="navbar-option"><a href="#">Company</a></div>
+    <div class="navbar-option"><a href="#">Team</a></div>
+    <div class="navbar-option"><a href="#">Contact</a></div>
+    </nav>
+   
+
+    <div class=spacer></div>
+    
     <body>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
-                    <h1>TES Analytics</h1>
-                    <p>This is a test of the text </p>
+                <div class="col-12 offset-md-1" s>
+                    <h1 style = "font-size: 84px">Cheaper and cleaner industrial <br>
+                         heat, realized</h1>
+                    <h3> Harnessing the power of data to accelerate the decarbonization of industrial heat </h3>
                 </div>
-                 
-                
             </div>
         </div>
+
+        <!--add spacer-->
+        <div class="spacer"></div>
+    
+  
         <!--create a new div section to embed tableau code-->
         <div>
             <script type='module' src='https://prod-useast-b.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-useast-b.online.tableau.com/t/tesanalytics/views/PublishedMap/MVP-Asis' width='1792' height='867' hide-tabs toolbar='bottom' ></tableau-viz>
         </div>
         
+        <!-- Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
     </body>
 </html>
