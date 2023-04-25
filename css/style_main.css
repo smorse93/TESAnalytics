@@ -8,7 +8,7 @@ body {
 }
 
 /* load the Hanken Grotesk font from Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Hanken+Grotesk:400,700');
+@import url('https://fonts.googleapis.com/css?family=Hanken+Grotesk:200,400,700');
 
 /* load poppins from Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
@@ -31,16 +31,9 @@ body, p {
     color: #ffffff;
 }
 
-/* set Approach Mono TRIAL as h2 font */
-h2 {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 1px;
-    color: #ffffff;
-}
-
 .secondaryTitleFont {
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 24px;
+    font-size: 36px;
     color: #ffffff;
     font-weight: 300;
 }
@@ -55,7 +48,18 @@ h2 {
 
 }
 
-
+.hThreeOptionBody {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 200;
+}
+.hThreeOptionHeader {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    color: #4399FF;
+    font-weight: 200;
+}
 
 /* make a blue version of body h1 and h2 */
 body.blue h1, body.blue h2 {
@@ -64,8 +68,14 @@ body.blue h1, body.blue h2 {
 
 /* make a spacer that is 60 px tall */
 .spacer {
-    height: 60px;
+    height: 5vh;
 }
+
+
+.spacer2 {
+    height: 15vh;
+}
+
 
 /*----------NAV BAR----------*/
 /* Style for the navigation bar */
@@ -119,4 +129,11 @@ body.blue h1, body.blue h2 {
     }
   }
   
-
+  @media (min-width: 576px) {
+.col-sm-1-2 {
+    flex-basis: calc(100% / 12 * 0.5);
+    max-width: calc(100% / 12 * 0.5);
+        }
+    }
+      
+    
