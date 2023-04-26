@@ -120,7 +120,6 @@ body.blue h1, body.blue h2 {
   /* Style for the links */
 .navbar-option a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
   }
 
 .titleTextBox {
@@ -146,8 +145,38 @@ body.blue h1, body.blue h2 {
         }
     }
 
+.my-col:hover {
+    background-color: #fff; /* set background to white */
+}
+.text-hover:hover {
+    color:#111
+}
+.no-underline {
+    text-decoration: none;
+  }
+img-fluid2 {
+    height: auto;
+    width: 100%;
+}
+.img-fluid3 {
+    height: 100%;
+    width: 100%;
+}
 
-/* CSS */
+.no-padding {
+    padding: 0 !important;
+  }
+  
+  .no-padding-left {
+    padding-left: 0 !important;
+  }
+  
+  .no-padding-right {
+    padding-right: 0 !important;
+  }
+  
+
+/*-----BUTTON-----*/
 .button-85 {
   padding: 1.2em 4em;
   border: none;
