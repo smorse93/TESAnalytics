@@ -38,7 +38,17 @@ body, p {
     font-weight: 300;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css?family=inconsolata:200,400,700,900');
+
+.inconsolata{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300&display=swap');
+
 
 .hMenuOption {
     font-family: 'Source Code Pro', monospace;
