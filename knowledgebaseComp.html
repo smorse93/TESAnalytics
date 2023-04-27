@@ -141,15 +141,23 @@
     <div class = "row justify-content-center">
         <div class="col-md-9 text-center">
             
-        <div class = 'hThreeOptionBody mt-3'> <span style = "font-weight: 200; font-size: 26px; text-align: left; padding-top:0px ">Average price of natural gas by state ($/mmbtu) </span> </div>
+        <div class = 'hThreeOptionBody mt-3'> <span style = "font-weight: 200; font-size: 26px; text-align: left; padding-top:0px ">Average Price of Natural Gas by State ($/mmbtu) </span> </div>
             
         </div>
 
     </div>
     
-    <!----tabluea chart-->
-    <div class="spacer2"></div>
-
+    <!----tabluea chart 1-->
+    <div class="chart-container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <script type="module" src="https://prod-useast-b.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+            <tableau-viz id="tableau-viz" src="https://prod-useast-b.online.tableau.com/t/tesanalytics2023/views/Finalmap-maps134dashboard/Map1-NGperstate" hide-tabs toolbar="bottom"></tableau-viz>
+          </div>
+        </div>
+     </div>
+     <div class="spacer"></div>
+    
 
 
     <!-----text under chart -->
@@ -164,13 +172,21 @@
      <!----tabluea chart title-->
      <div class = "row justify-content-center">
         <div class="col-md-6 text-center">
-        <div class = 'hThreeOptionBody mt-3'> <span style = "font-weight: 200; font-size: 26px; text-align: left; padding-top:0px ">Average price of industrial electricity by zip code ($/mmbtu) </span> </div>
+        <div class = 'hThreeOptionBody mt-3'> <span style = "font-weight: 200; font-size: 26px; text-align: left; padding-top:0px ">Average Price of Industrial Electricity by Zip Code ($/mmbtu) </span> </div>
         </div>
 
     </div>
     
-    <!----tabluea chart-->
-    <div class="spacer2"></div>
+    <!----tabluea chart 2-->
+    <div class="chart-container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <script type="module" src="https://prod-useast-b.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+            <tableau-viz id="tableau-viz" src="https://prod-useast-b.online.tableau.com/t/tesanalytics2023/views/Finalmap-Industrialratebyzipcode/Map2-Industrialratebyzip" hide-tabs toolbar="bottom"></tableau-viz>
+          </div>
+        </div>
+     </div>
+     <div class="spacer"></div>
 
 
      <!-----third quote -->
@@ -192,13 +208,21 @@
     <!----tabluea chart title-->
     <div class = "row justify-content-center">
         <div class="col-md-6 text-center">
-        <div class = 'hThreeOptionBody mt-3'> <span style = "font-weight: 200; font-size: 26px; text-align: left; padding-top:0px ">Average difference between the cost of heat produced from electricity vs. natural gas  ($/mmbtu)  </span> </div>
+        <div class = 'hThreeOptionBody mt-3'> <span style = "font-weight: 200; font-size: 26px; text-align: left; padding-top:0px ">Average Difference Between the Cost of Heat Produced from Electricity vs. Natural gas  ($/mmbtu)  </span> </div>
         </div>
 
     </div>
 
-    <!----tabluea chart-->
-    <div class="spacer2"></div>
+    <!----tabluea chart 3 -->
+    <div class="chart-container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <script type="module" src="https://prod-useast-b.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+            <tableau-viz id="tableau-viz" src="https://prod-useast-b.online.tableau.com/t/tesanalytics2023/views/Finalmap-maps134dashboard/Map3-deltasimple" hide-tabs toolbar="bottom"></tableau-viz>
+          </div>
+        </div>
+     </div>
+     <div class="spacer"></div>
 
     <!-----second quote -->
     <div class="container">
@@ -220,12 +244,19 @@
     <div class = "row justify-content-center">
         <div class="col-md-6 text-center">
         <div class = 'hThreeOptionBody mt-3'> <span style = "font-weight: 200; font-size: 26px; text-align: left; padding-top:0px ">
-            Average difference between the cost of heat produced from electricity vs. natural gas including the current cost of carbon  ($/mmbtu) </span> </div>
+            Average Difference Between the Cost of Heat Produced from Electricity vs. Natural Gas Including the Current Cost of Carbon  ($/mmbtu) </span> </div>
         </div>
     </div>
 
-     <!----tabluea chart-->
-     <div class="spacer2"></div>
+     <!----tabluea chart 4-->
+     <div class="chart-container">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <script type="module" src="https://prod-useast-b.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+            <tableau-viz id="tableau-viz" src="https://prod-useast-b.online.tableau.com/t/tesanalytics2023/views/Finalmap-maps134dashboard/Map4-deltawcarbon" hide-tabs toolbar="bottom"></tableau-viz>
+          </div>
+        </div>
+     </div>
 
     <!-----text under chart -->
     <div class="row justify-content-center">
@@ -240,7 +271,7 @@
     <div class = 'row'>
         <div class = 'col'></div>
         <div class = 'col center'>
-            <button class="button-85" role="button"><a href = "#policytool.html" class = no-underline><span class ="hThreeOptionHeader" style="color: #FFFFFF; font-size: 20px; " >Policy Tool</span></a></button>
+            <button class="button-85" role="button"><a href = "policytool.html" class = no-underline><span class ="hThreeOptionHeader" style="color: #FFFFFF; font-size: 20px; " >Policy Tool</span></a></button>
         </div>
         <div class = 'col'></div>
     </div>
