@@ -1,4 +1,6 @@
 
+/* can you go through every line of this document and make all of the font-size in my css code responsive?*/
+
 
 /* create a background using background.jpg in the images folder */
 body {
@@ -181,7 +183,14 @@ img-fluid2 {
     padding-right: 0 !important;
   }
   
+  .image-container {
+    overflow: hidden;
+    width: 100vw; /* set the width of the container to the width of the viewport */
+    height: 100vh; /* set the height of the container to the height of the viewport */
+  }
+  
 
+  
 /*-----BUTTON-----*/
 .button-85 {
   padding: 1.2em 4em;
