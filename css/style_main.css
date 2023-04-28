@@ -20,7 +20,7 @@ body {
 /* set Hanken Grotesk as the font for the body of the page */
 body, p {
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-size: 1rem;
     color: #ffffff;
 
@@ -30,13 +30,13 @@ body, p {
 /* set Poppins as h1 font */
 .titleFont {
     font-family: 'Poppins', sans-serif;
-    font-size: max(24px,4vw);
+    font-size: max(30px,4vw);
     color: #ffffff;
 }
 
 .secondaryTitleFont {
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: max(18px,2.5vw);
+    font-size: max(22px,2.5vw);
     color: #ffffff;
     font-weight: 300;
 }
