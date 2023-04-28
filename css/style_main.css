@@ -20,7 +20,7 @@ body {
 /* set Hanken Grotesk as the font for the body of the page */
 body, p {
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-size: 1rem;
     color: #ffffff;
 
@@ -30,13 +30,13 @@ body, p {
 /* set Poppins as h1 font */
 .titleFont {
     font-family: 'Poppins', sans-serif;
-    font-size: max(30px,4vw);
+    font-size: 84px;
     color: #ffffff;
 }
 
 .secondaryTitleFont {
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: max(22px,2.5vw);
+    font-size: 36px;
     color: #ffffff;
     font-weight: 300;
 }
@@ -45,7 +45,7 @@ body, p {
 
 .inconsolata{
     font-family: 'Inconsolata', monospace;
-    font-size: max(16px,1.3vw);
+    font-size: 20px;
     color: #ffffff;
     font-weight: 200;
 }
@@ -55,7 +55,7 @@ body, p {
 
 .hMenuOption {
     font-family: 'Source Code Pro', monospace;
-    font-size: max(16px,1.5vw);
+    font-size: 24px;
     font-weight: 200;
     color: #ffffff;
 
@@ -63,13 +63,13 @@ body, p {
 
 .hThreeOptionBody {
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: max(16px, 1.6vw);
+    font-size: 26px;
     color: #ffffff;
     font-weight: 200;
 }
 .hThreeOptionHeader {
     font-family: 'Source Code Pro', monospace;
-    font-size: max(17px, 2vw);
+    font-size: 30px;
     color: #4399FF;
     font-weight: 200;
 }
