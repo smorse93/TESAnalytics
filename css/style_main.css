@@ -69,7 +69,7 @@ body, p {
 }
 .hThreeOptionHeader {
     font-family: 'Source Code Pro', monospace;
-    font-size: 2vw;
+    font-size: max(16px, 2vw);
     color: #4399FF;
     font-weight: 200;
 }
